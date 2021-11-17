@@ -3,7 +3,7 @@
 
 var log = require("npmlog");
 var _ = require("lodash");
-var BuildSystem = require("../").BuildSystem;
+var BuildSystem = require("../lib").BuildSystem;
 var util = require("util");
 var version = require("../package").version;
 var logLevels = ["silly", "verbose", "info", "http", "warn", "error"];
